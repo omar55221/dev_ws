@@ -1,1 +1,0 @@
-/dev_ws/build/void_bot/ament_cmake_core/void_botConfig.cmake

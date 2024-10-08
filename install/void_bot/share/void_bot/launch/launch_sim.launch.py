@@ -1,1 +1,0 @@
-/dev_ws/src/void_bot/launch/launch_sim.launch.py

@@ -1,9 +1,0 @@
-/dev_ws/build/void_bot/CMakeFiles/uninstall.dir
-/dev_ws/build/void_bot/CMakeFiles/void_bot_uninstall.dir
-/dev_ws/build/void_bot/CMakeFiles/test.dir
-/dev_ws/build/void_bot/CMakeFiles/edit_cache.dir
-/dev_ws/build/void_bot/CMakeFiles/rebuild_cache.dir
-/dev_ws/build/void_bot/CMakeFiles/list_install_components.dir
-/dev_ws/build/void_bot/CMakeFiles/install.dir
-/dev_ws/build/void_bot/CMakeFiles/install/local.dir
-/dev_ws/build/void_bot/CMakeFiles/install/strip.dir

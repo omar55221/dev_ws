@@ -1,1 +1,0 @@
-/dev_ws/src/void_bot/launch/rplidar.launch.py

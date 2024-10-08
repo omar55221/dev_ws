@@ -1,0 +1,4 @@
+Invoking command in '/dev_ws/build/void_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/void_bot -- -j4 -l4
+Invoked command in '/dev_ws/build/void_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/void_bot -- -j4 -l4
+Invoking command in '/dev_ws/build/void_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /dev_ws/build/void_bot
+Invoked command in '/dev_ws/build/void_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /dev_ws/build/void_bot

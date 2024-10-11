@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+6061e7e157d7bc326e74e398650e9f91 CMakeFiles/void_bot_uninstall

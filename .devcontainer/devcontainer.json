@@ -1,21 +1,13 @@
 {
-    "name": "ROS 2 Humble",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "davidanson.vscode-markdownlint",
-                "dotjoshjohnson.xml",
-                "github.codespaces",
-                "github.copilot",
-                "github.copilot-chat",
-                "github.remotehub",
-                "github.vscode-github-actions",
-                "twxs.cmake",
-                "saoudrizwan.claude-dev"
-            ]
-        }
-    }
+  "name": "humble desktop",
+  "dockerFile": "Dockerfile",
+  "runArgs": [
+    "--privileged",
+    "--network=host"
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
+  "workspaceFolder": "/${localWorkspaceFolderBasename}",
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind"
+  ]
 }

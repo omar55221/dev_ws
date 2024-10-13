@@ -31,6 +31,8 @@ RUN apt-get update && \
     ros-humble-nav2-bringup \
     ros-humble-gazebo-ros-pkgs \
     ros-humble-gazebo-ros2-control \
+    ros-humble-ros2-control \
+    ros-humble-ros2-controllers \
     ros-humble-joint-state-publisher-gui \
     ros-humble-slam-toolbox \
     ros-humble-controller-manager \
@@ -38,8 +40,15 @@ RUN apt-get update && \
     ros-humble-gazebo-ros \
     ros-humble-rplidar-ros \
     ros-humble-usb-cam \
-    ros-humble-image-transport \
+    ros-humble-image-transport-plugins \
     ros-humble-diff-drive-controller \
+    ros-humble-teleop-twist-keyboard \
+    ros-humble-teleop-twist-joy \
+    ros-humble-rqt-image-view \
+    ros-humble-rosbridge-suite \
+    joystick \
+    jstest-gtk \
+    evtest \
     ros-humble-joint-state-broadcaster && \
     rm -rf /var/lib/apt/lists/*
 

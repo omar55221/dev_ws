@@ -1,5 +1,8 @@
-# Use the official ROS Humble desktop image directly, no ARG required
-FROM osrf/ros:humble-desktop
+# Define the base image argument
+ARG BASE_IMAGE=osrf/ros:humble-desktop
+
+# Use the base image argument
+FROM ${BASE_IMAGE}
 
 # Arguments for creating a new user with the same UID and GID as the host
 ARG USERNAME=ubuntu

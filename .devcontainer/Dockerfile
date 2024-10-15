@@ -1,8 +1,5 @@
-# Define the base image argument
-ARG BASE_IMAGE=osrf/ros:humble-desktop
-
-# Use the base image argument
-FROM ${BASE_IMAGE}
+# Use the base image argument with a default value
+FROM ${BASE_IMAGE:-osrf/ros:humble-desktop}
 
 # Arguments for creating a new user with the same UID and GID as the host
 ARG USERNAME=ubuntu
@@ -11,9 +8,9 @@ ARG USER_GID=$USER_UID
 
 # Create a new user and add it to the sudo group
 RUN if ! id -u $USER_UID > /dev/null 2>&1; then \
-        groupadd --gid $USER_GID $USERNAME && \
-        useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME && \
-        usermod -aG sudo $USERNAME; \
+    groupadd --gid $USER_GID $USERNAME && \
+    useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME && \
+    usermod -aG sudo $USERNAME; \
     fi
 
 # Install sudo, update apt packages, and give the new user passwordless sudo access

@@ -49,6 +49,9 @@ RUN apt-get update && \
     ros-humble-teleop-twist-joy \
     ros-humble-rqt-image-view \
     ros-humble-rosbridge-suite \
+    ros-humble-navigation2\
+    ros-humble-nav2-bringup \
+    ros-humble-turtlebot3 \
     joystick \
     jstest-gtk \
     evtest \

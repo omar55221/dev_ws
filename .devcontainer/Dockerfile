@@ -1,16 +1,17 @@
-# Use the base image argument with a default value
-FROM ${BASE_IMAGE:-osrf/ros:humble-desktop}
+# Use the official ROS Humble desktop image directly
+ARG BASE_IMAGE=osrf/ros:humble-desktop
+FROM osrf/ros:humble-desktop
 
 # Arguments for creating a new user with the same UID and GID as the host
 ARG USERNAME=ubuntu
 ARG USER_UID=1000
-ARG USER_GID=$USER_UID
+ARG USER_GID=1000
 
 # Create a new user and add it to the sudo group
 RUN if ! id -u $USER_UID > /dev/null 2>&1; then \
-    groupadd --gid $USER_GID $USERNAME && \
-    useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME && \
-    usermod -aG sudo $USERNAME; \
+        groupadd --gid $USER_GID $USERNAME && \
+        useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME && \
+        usermod -aG sudo $USERNAME; \
     fi
 
 # Install sudo, update apt packages, and give the new user passwordless sudo access
@@ -46,8 +47,6 @@ RUN apt-get update && \
     ros-humble-teleop-twist-joy \
     ros-humble-rqt-image-view \
     ros-humble-rosbridge-suite \
-    ros-humble-navigation2\
-    ros-humble-nav2-bringup \
     ros-humble-turtlebot3 \
     joystick \
     jstest-gtk \

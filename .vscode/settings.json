@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "/dev_ws/src/articubot_one",
+    "cmake.sourceDirectory": "/home/stuffedbox/dev_ws/src/void_bot",
     "python.autoComplete.extraPaths": [
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"

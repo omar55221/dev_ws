@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /dev_ws/build/void_bot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/ball_tracker_params_robot.yaml
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/ball_tracker_params_sim.yaml
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/drive_bot.rviz
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/empty.yaml
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/gaz_ros2_ctl_use_sim.yaml
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/gazebo_params.yaml
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/joystick.yaml
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/main.rviz
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/map.rviz
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/mapper_params_online_async.yaml
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/my_controllers.yaml
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/nav2_params.yaml
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/twist_mux.yaml
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/view_bot.rviz
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/camera.xacro
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/depth_camera.xacro
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/face.xacro
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/gazebo_control.xacro
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/inertial_macros.xacro
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/lidar.xacro
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/robot.urdf.xacro
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/robot_core.xacro
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/ros2_control.xacro
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/ball_tracker.launch.py
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/camera.launch.py
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/joystick.launch.py
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/launch_robot.launch.py
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/launch_sim.launch.py
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/localization_launch.py
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/navigation_launch.py
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/online_async_launch.py
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/rplidar.launch.py
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/rsp.launch.py
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/worlds/empty.world
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/worlds/obstacles.world
+-- Symlinking: /dev_ws/install/void_bot/share/ament_index/resource_index/package_run_dependencies/void_bot
+-- Symlinking: /dev_ws/install/void_bot/share/ament_index/resource_index/parent_prefix_path/void_bot
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/environment/ament_prefix_path.sh
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/environment/ament_prefix_path.dsv
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/environment/path.sh
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/environment/path.dsv
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/local_setup.bash
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/local_setup.sh
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/local_setup.zsh
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/local_setup.dsv
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/package.dsv
+-- Symlinking: /dev_ws/install/void_bot/share/ament_index/resource_index/packages/void_bot
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/cmake/void_botConfig.cmake
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/cmake/void_botConfig-version.cmake
+-- Symlinking: /dev_ws/install/void_bot/share/void_bot/package.xml

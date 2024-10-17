@@ -1,0 +1,4 @@
+source;share/void_bot/local_setup.bash
+source;share/void_bot/local_setup.dsv
+source;share/void_bot/local_setup.sh
+source;share/void_bot/local_setup.zsh

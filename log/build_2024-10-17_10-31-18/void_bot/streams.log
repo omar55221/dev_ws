@@ -1,0 +1,82 @@
+[0.016s] Invoking command in '/dev_ws/build/void_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/void_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws/install/void_bot
+[0.113s] -- The C compiler identification is GNU 11.4.0
+[0.188s] -- The CXX compiler identification is GNU 11.4.0
+[0.197s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.290s] -- Detecting C compile features
+[0.290s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.393s] -- Detecting CXX compiler ABI info - done
+[0.400s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.401s] -- Detecting CXX compile features - done
+[0.407s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.587s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.659s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.716s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.822s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.834s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.835s] -- Added test 'lint_cmake' to check CMake code style
+[0.836s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.843s] -- Added test 'xmllint' to check XML markup files
+[0.845s] -- Configuring done
+[0.850s] -- Generating done
+[0.851s] -- Build files have been written to: /dev_ws/build/void_bot
+[0.857s] Invoked command in '/dev_ws/build/void_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/void_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws/install/void_bot
+[0.859s] Invoking command in '/dev_ws/build/void_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/void_bot -- -j8 -l8
+[0.910s] Invoked command in '/dev_ws/build/void_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/void_bot -- -j8 -l8
+[0.956s] Invoking command in '/dev_ws/build/void_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /dev_ws/build/void_bot
+[0.965s] -- Install configuration: ""
+[0.965s] -- Execute custom install script
+[0.966s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/ball_tracker_params_robot.yaml
+[0.978s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/ball_tracker_params_sim.yaml
+[0.991s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/drive_bot.rviz
+[1.003s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/empty.yaml
+[1.015s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/gaz_ros2_ctl_use_sim.yaml
+[1.027s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/gazebo_params.yaml
+[1.038s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/joystick.yaml
+[1.049s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/main.rviz
+[1.060s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/map.rviz
+[1.072s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/mapper_params_online_async.yaml
+[1.083s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/my_controllers.yaml
+[1.095s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/nav2_params.yaml
+[1.106s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/twist_mux.yaml
+[1.118s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/config/view_bot.rviz
+[1.131s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/camera.xacro
+[1.143s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/depth_camera.xacro
+[1.154s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/face.xacro
+[1.166s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/gazebo_control.xacro
+[1.176s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/inertial_macros.xacro
+[1.188s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/lidar.xacro
+[1.199s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/robot.urdf.xacro
+[1.210s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/robot_core.xacro
+[1.223s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/description/ros2_control.xacro
+[1.235s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/ball_tracker.launch.py
+[1.246s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/camera.launch.py
+[1.258s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/joystick.launch.py
+[1.270s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/launch_robot.launch.py
+[1.281s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/launch_sim.launch.py
+[1.293s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/localization_launch.py
+[1.304s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/navigation_launch.py
+[1.315s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/online_async_launch.py
+[1.327s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/rplidar.launch.py
+[1.339s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/launch/rsp.launch.py
+[1.351s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/worlds/empty.world
+[1.362s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/worlds/obstacles.world
+[1.373s] -- Symlinking: /dev_ws/install/void_bot/share/ament_index/resource_index/package_run_dependencies/void_bot
+[1.384s] -- Symlinking: /dev_ws/install/void_bot/share/ament_index/resource_index/parent_prefix_path/void_bot
+[1.395s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/environment/ament_prefix_path.sh
+[1.406s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/environment/ament_prefix_path.dsv
+[1.418s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/environment/path.sh
+[1.431s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/environment/path.dsv
+[1.444s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/local_setup.bash
+[1.455s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/local_setup.sh
+[1.468s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/local_setup.zsh
+[1.479s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/local_setup.dsv
+[1.491s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/package.dsv
+[1.503s] -- Symlinking: /dev_ws/install/void_bot/share/ament_index/resource_index/packages/void_bot
+[1.513s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/cmake/void_botConfig.cmake
+[1.525s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/cmake/void_botConfig-version.cmake
+[1.537s] -- Symlinking: /dev_ws/install/void_bot/share/void_bot/package.xml
+[1.551s] Invoked command in '/dev_ws/build/void_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /dev_ws/build/void_bot

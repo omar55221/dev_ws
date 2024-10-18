@@ -1,6 +1,6 @@
 # Navigation Command Documentation
 
-This document provides a list of commands to run the navigation stack. Each command should be executed in a separate terminal after sourcing the `install/setup.bash` file in the `/dev_ws` directory.
+This document provides a list of commands to run the navigation stack. Each command should be executed in a separate terminal after sourcing the `source install/setup.bash` file in the `/dev_ws` directory.
 
 ## Terminal 1
 
@@ -41,3 +41,7 @@ ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
 
 **Description:**
 This command starts the navigation stack using the `nav2_bringup` package. It enables the use of simulation time, which is necessary when running in a simulated environment.
+
+terminal 5
+
+python3 send_waypoints.py

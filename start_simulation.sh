@@ -5,7 +5,7 @@ source /dev_ws/install/setup.bash
 
 # Launch the simulation environment in the background (as if in a separate terminal)
 echo "Launching simulation environment..."
-ros2 launch void_bot launch_sim.launch.py world:=src/void_bot/worlds/obstacles.world &
+ros2 launch void_bot launch_sim.launch.py world:=src/void_bot/worlds/bworld.world &
 SIM_PID=$!
 sleep 10  # Give the simulation time to start
 

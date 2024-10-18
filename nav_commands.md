@@ -6,7 +6,7 @@ This document provides a list of commands to run the navigation stack. Each comm
 
 **Command:**
 ```bash
-ros2 launch void_bot launch_sim.launch.py world:=src/void_bot/worlds/obstacles.world
+ros2 launch void_bot launch_sim.launch.py world:=src/void_bot/worlds/bworld.world
 ```
 
 **Description:**
@@ -45,3 +45,11 @@ This command starts the navigation stack using the `nav2_bringup` package. It en
 terminal 5
 
 python3 send_waypoints.py
+1
+(1.0, 1.6)
+2
+(3.3, 2.6)
+3
+(3.4, -0.3)
+4
+(-0.3, 0.1)

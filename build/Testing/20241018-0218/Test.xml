@@ -11,24 +11,24 @@
 	OSVersion="#18~22.04.1-Ubuntu SMP Tue Oct  8 14:58:58 UTC 2024"
 	OSPlatform="x86_64"
 	Is64Bits="1"
-	VendorString="AuthenticAMD"
-	VendorID="Advanced Micro Devices"
-	FamilyID="23"
-	ModelID="49"
-	ProcessorCacheSize="512"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="79"
+	ProcessorCacheSize="56320"
 	NumberOfLogicalCPU="8"
 	NumberOfPhysicalCPU="4"
 	TotalVirtualMemory="0"
 	TotalPhysicalMemory="32093"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="2250"
+	ProcessorClockFrequency="2200.16"
 	>
 	<Testing>
-		<StartDateTime>Oct 18 06:42 UTC</StartDateTime>
-		<StartTestTime>1729233741</StartTestTime>
+		<StartDateTime>Oct 18 16:29 UTC</StartDateTime>
+		<StartTestTime>1729268955</StartTestTime>
 		<TestList/>
-		<EndDateTime>Oct 18 06:42 UTC</EndDateTime>
-		<EndTestTime>1729233741</EndTestTime>
+		<EndDateTime>Oct 18 16:29 UTC</EndDateTime>
+		<EndTestTime>1729268955</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

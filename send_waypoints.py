@@ -16,9 +16,10 @@ class WaypointActionClient(Node):
     def create_waypoints(self):
         # Define waypoints
         return [
-            PoseStamped(header=Header(frame_id='map'), pose=Pose(position=Point(x=1.0, y=1.0, z=0.0), orientation=Quaternion(w=1.0))),
-            PoseStamped(header=Header(frame_id='map'), pose=Pose(position=Point(x=2.0, y=2.0, z=0.0), orientation=Quaternion(w=1.0))),
-            PoseStamped(header=Header(frame_id='map'), pose=Pose(position=Point(x=3.0, y=3.0, z=0.0), orientation=Quaternion(w=1.0)))
+            PoseStamped(header=Header(frame_id='map'), pose=Pose(position=Point(x=1.0, y=1.6, z=0.0), orientation=Quaternion(w=1.0))),
+            PoseStamped(header=Header(frame_id='map'), pose=Pose(position=Point(x=3.3, y=2.6, z=0.0), orientation=Quaternion(w=1.0))),
+            PoseStamped(header=Header(frame_id='map'), pose=Pose(position=Point(x=3.4, y=-0.3, z=0.0), orientation=Quaternion(w=1.0))),
+            PoseStamped(header=Header(frame_id='map'), pose=Pose(position=Point(x=-0.3, y=0.1, z=0.0), orientation=Quaternion(w=1.0)))
         ]
 
     def send_goal(self):

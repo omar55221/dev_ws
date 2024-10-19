@@ -1,0 +1,3 @@
+[submodule "src/void_bot"]
+    path = src/void_bot
+    url = https://github.com/omar55221/void_bot.git

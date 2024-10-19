@@ -33,7 +33,6 @@
 /dev_ws/install/void_bot/share/void_bot/launch/rsp.launch.py
 /dev_ws/install/void_bot/share/void_bot/worlds/empty.world
 /dev_ws/install/void_bot/share/void_bot/worlds/obstacles.world
-/dev_ws/install/void_bot/share/void_bot/worlds/void.world
 /dev_ws/install/void_bot/share/ament_index/resource_index/package_run_dependencies/void_bot
 /dev_ws/install/void_bot/share/ament_index/resource_index/parent_prefix_path/void_bot
 /dev_ws/install/void_bot/share/void_bot/environment/ament_prefix_path.sh

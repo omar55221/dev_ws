@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241019-0816-Experimental"
+	Name="void50gb"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="void50gb"
+	OSRelease="6.8.0-1016-gcp"
+	OSVersion="#18~22.04.1-Ubuntu SMP Tue Oct  8 14:58:58 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="49"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="32093"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2250"
+	>
+	<Testing>
+		<StartDateTime>Oct 19 08:35 UTC</StartDateTime>
+		<StartTestTime>1729326957</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 19 08:35 UTC</EndDateTime>
+		<EndTestTime>1729326957</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

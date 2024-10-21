@@ -21,6 +21,6 @@
     "5901": {
       "label": "Desktop (VNC)"
     }
-
- } 
+  },
+  "postStartCommand": "/bin/bash /dev_ws/start_simulation.sh > /dev_ws/logs/start_simulation.log 2>&1"
 }

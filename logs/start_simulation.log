@@ -1,0 +1,931 @@
+Launching simulation environment...
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2024-10-21-14-39-17-817631-codespaces-e91a0c-492
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [496]
+[INFO] [joy_node-2]: process started with pid [498]
+[INFO] [teleop_node-3]: process started with pid [500]
+[INFO] [twist_mux-4]: process started with pid [506]
+[INFO] [gzserver-5]: process started with pid [524]
+[INFO] [gzclient-6]: process started with pid [534]
+[INFO] [spawn_entity.py-7]: process started with pid [544]
+[INFO] [spawner-8]: process started with pid [550]
+[INFO] [spawner-9]: process started with pid [553]
+[robot_state_publisher-1] [INFO] [1729521558.536192083] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1729521558.536451968] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1729521558.536472172] [robot_state_publisher]: got segment camera_link
+[robot_state_publisher-1] [INFO] [1729521558.536478501] [robot_state_publisher]: got segment camera_link_optical
+[robot_state_publisher-1] [INFO] [1729521558.536484874] [robot_state_publisher]: got segment caster_wheel
+[robot_state_publisher-1] [INFO] [1729521558.536491065] [robot_state_publisher]: got segment chassis
+[robot_state_publisher-1] [INFO] [1729521558.536497733] [robot_state_publisher]: got segment face_link
+[robot_state_publisher-1] [INFO] [1729521558.536503982] [robot_state_publisher]: got segment laser_frame
+[robot_state_publisher-1] [INFO] [1729521558.536509641] [robot_state_publisher]: got segment left_wheel
+[robot_state_publisher-1] [INFO] [1729521558.536515338] [robot_state_publisher]: got segment right_wheel
+[teleop_node-3] [INFO] [1729521558.507821094] [TeleopTwistJoy]: Teleop enable button 6.
+[teleop_node-3] [INFO] [1729521558.507866651] [TeleopTwistJoy]: Turbo on button 7.
+[teleop_node-3] [INFO] [1729521558.507872947] [TeleopTwistJoy]: Linear axis x on 1 at scale 0.500000.
+[teleop_node-3] [INFO] [1729521558.507880720] [TeleopTwistJoy]: Turbo for linear axis x is scale 1.000000.
+[teleop_node-3] [INFO] [1729521558.507885476] [TeleopTwistJoy]: Angular axis yaw on 0 at scale 0.500000.
+[teleop_node-3] [INFO] [1729521558.507890026] [TeleopTwistJoy]: Turbo for angular axis yaw is scale 1.000000.
+[twist_mux-4] [INFO] [1729521558.572858835] [twist_mux]: Topic handler 'topics.joystick' subscribed to topic 'cmd_vel_joy': timeout = 0.500000s , priority = 100.
+[twist_mux-4] [INFO] [1729521558.577742160] [twist_mux]: Topic handler 'topics.navigation' subscribed to topic 'cmd_vel': timeout = 0.500000s , priority = 10.
+[twist_mux-4] [INFO] [1729521558.578150258] [twist_mux]: Topic handler 'topics.tracker' subscribed to topic 'cmd_vel_tracker': timeout = 0.500000s , priority = 20.
+[spawner-9] [INFO] [1729521560.013855142] [spawner_joint_broad]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-8] [INFO] [1729521560.016306279] [spawner_diff_cont]: waiting for service /controller_manager/list_controllers to become available...
+[spawn_entity.py-7] [INFO] [1729521560.037090587] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-7] [INFO] [1729521560.037585632] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-7] /opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/qos.py:307: UserWarning: DurabilityPolicy.RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL is deprecated. Use DurabilityPolicy.TRANSIENT_LOCAL instead.
+[spawn_entity.py-7]   warnings.warn(
+[spawn_entity.py-7] [INFO] [1729521560.039905367] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-7] [INFO] [1729521560.051319790] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-7] [INFO] [1729521560.051820974] [spawn_entity]: Waiting for service /spawn_entity
+[gzserver-5] ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+[gzserver-5] ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+[gzserver-5] ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+[gzserver-5] ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+[gzserver-5] ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+[gzserver-5] ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+[gzserver-5] ALSA lib conf.c:5701:(snd_config_expand) Evaluate error: No such file or directory
+[gzserver-5] ALSA lib pcm.c:2664:(snd_pcm_open_noupdate) Unknown PCM default
+[gzserver-5] AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': No such file or directory
+[spawn_entity.py-7] [INFO] [1729521560.556232200] [spawn_entity]: Calling service /spawn_entity
+[spawner-8] [WARN] [1729521570.037281637] [spawner_diff_cont]: Could not contact service /controller_manager/list_controllers
+[spawner-8] [INFO] [1729521570.037945393] [spawner_diff_cont]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1729521570.038006592] [spawner_joint_broad]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1729521570.039610087] [spawner_joint_broad]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1729521580.053797588] [spawner_joint_broad]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1729521580.054463615] [spawner_joint_broad]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-8] [WARN] [1729521580.057437562] [spawner_diff_cont]: Could not contact service /controller_manager/list_controllers
+[spawner-8] [INFO] [1729521580.057970076] [spawner_diff_cont]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1729521590.069507197] [spawner_joint_broad]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1729521590.070636216] [spawner_joint_broad]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-8] [WARN] [1729521590.071720954] [spawner_diff_cont]: Could not contact service /controller_manager/list_controllers
+[spawner-8] [INFO] [1729521590.072306167] [spawner_diff_cont]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-8] [WARN] [1729521600.084434435] [spawner_diff_cont]: Could not contact service /controller_manager/list_controllers
+[spawner-8] [INFO] [1729521600.085057879] [spawner_diff_cont]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1729521600.085987080] [spawner_joint_broad]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1729521600.086631005] [spawner_joint_broad]: waiting for service /controller_manager/list_controllers to become available...
+Launching RViz2...
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ubuntu'
+[INFO] [1729521607.693714294] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1729521607.693872592] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[INFO] [1729521607.713259970] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1729521607.855579976] [rviz2]: Stereo is NOT SUPPORTED
+[gzserver-5] [INFO] [1729521609.570107471] [camera_controller]: Publishing camera info to [/camera/camera_info]
+[spawn_entity.py-7] [INFO] [1729521609.580612654] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [my_bot]
+[gzserver-5] [WARN] [1729521609.610535297] [rcl]: Found remap rule '~/out:=scan'. This syntax is deprecated. Use '--ros-args --remap ~/out:=scan' instead.
+[gzserver-5] [WARN] [1729521609.635095438] [rcl]: Found remap rule '~/out:=scan'. This syntax is deprecated. Use '--ros-args --remap ~/out:=scan' instead.
+[gzserver-5] [INFO] [1729521609.741438234] [gazebo_ros2_control]: Loading gazebo_ros2_control plugin
+[gzserver-5] [INFO] [1729521609.769709371] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in namespace: /
+[gzserver-5] [INFO] [1729521609.769771893] [gazebo_ros2_control]: Starting gazebo_ros2_control plugin in ros 2 node: gazebo_ros2_control
+[gzserver-5] [INFO] [1729521609.794640209] [gazebo_ros2_control]: connected to service!! robot_state_publisher
+[gzserver-5] [INFO] [1729521609.796854597] [gazebo_ros2_control]: Received urdf from param server, parsing...
+[gzserver-5] [INFO] [1729521609.797477353] [gazebo_ros2_control]: Loading parameter files /dev_ws/install/void_bot/share/void_bot/config/my_controllers.yaml
+[gzserver-5] [INFO] [1729521609.797940138] [gazebo_ros2_control]: Loading parameter files /dev_ws/install/void_bot/share/void_bot/config/gaz_ros2_ctl_use_sim.yaml
+[gzserver-5] [INFO] [1729521609.831220880] [gazebo_ros2_control]: Loading joint: left_wheel_joint
+[INFO] [spawn_entity.py-7]: process has finished cleanly [pid 544]
+[gzserver-5] [INFO] [1729521609.831270192] [gazebo_ros2_control]: 	State:
+[gzserver-5] [INFO] [1729521609.831281528] [gazebo_ros2_control]: 		 velocity
+[gzserver-5] [INFO] [1729521609.831291496] [gazebo_ros2_control]: 		 position
+[gzserver-5] [INFO] [1729521609.831299429] [gazebo_ros2_control]: 	Command:
+[gzserver-5] [INFO] [1729521609.831333182] [gazebo_ros2_control]: 		 velocity
+[gzserver-5] [INFO] [1729521609.834511833] [gazebo_ros2_control]: Loading joint: right_wheel_joint
+[gzserver-5] [INFO] [1729521609.834551017] [gazebo_ros2_control]: 	State:
+[gzserver-5] [INFO] [1729521609.834561157] [gazebo_ros2_control]: 		 velocity
+[gzserver-5] [INFO] [1729521609.834569725] [gazebo_ros2_control]: 		 position
+[gzserver-5] [INFO] [1729521609.834577676] [gazebo_ros2_control]: 	Command:
+[gzserver-5] [INFO] [1729521609.834595901] [gazebo_ros2_control]: 		 velocity
+[gzserver-5] [INFO] [1729521609.837132864] [resource_manager]: Initialize hardware 'GazeboSystem' 
+[gzserver-5] [INFO] [1729521609.837352255] [resource_manager]: Successful initialization of hardware 'GazeboSystem'
+[gzserver-5] [INFO] [1729521609.837558806] [resource_manager]: 'configure' hardware 'GazeboSystem' 
+[gzserver-5] [INFO] [1729521609.837576065] [resource_manager]: Successful 'configure' of hardware 'GazeboSystem'
+[gzserver-5] [INFO] [1729521609.837585167] [resource_manager]: 'activate' hardware 'GazeboSystem' 
+[gzserver-5] [INFO] [1729521609.837593203] [resource_manager]: Successful 'activate' of hardware 'GazeboSystem'
+[gzserver-5] [INFO] [1729521609.837674193] [gazebo_ros2_control]: Loading controller_manager
+[gzserver-5] [WARN] [1729521610.007784611] [gazebo_ros2_control]:  Desired controller update period (0.0333333 s) is slower than the gazebo simulation period (0.001 s).
+[gzserver-5] [INFO] [1729521610.010536356] [gazebo_ros2_control]: Loaded gazebo_ros2_control.
+[gzserver-5] [INFO] [1729521610.108703921] [controller_manager]: Loading controller 'diff_cont'
+[gzserver-5] [INFO] [1729521610.322980433] [controller_manager]: Loading controller 'joint_broad'
+[spawner-8] [INFO] [1729521610.327613821] [spawner_diff_cont]: [94mLoaded [1mdiff_cont[0m
+[gzserver-5] [INFO] [1729521610.457205769] [controller_manager]: Configuring controller 'diff_cont'
+[spawner-9] [INFO] [1729521610.461374503] [spawner_joint_broad]: [94mLoaded [1mjoint_broad[0m
+[gzserver-5] [INFO] [1729521610.577234191] [controller_manager]: Configuring controller 'joint_broad'
+[gzserver-5] [INFO] [1729521610.577358421] [joint_broad]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[spawner-8] [INFO] [1729521610.869518746] [spawner_diff_cont]: [92mConfigured and activated [1mdiff_cont[0m
+[spawner-9] [INFO] [1729521611.092184286] [spawner_joint_broad]: [92mConfigured and activated [1mjoint_broad[0m
+[INFO] [spawner-8]: process has finished cleanly [pid 550]
+[INFO] [spawner-9]: process has finished cleanly [pid 553]
+[INFO] [1729521613.139145462] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 457.445 for reason 'discarding message because the queue is full'
+[INFO] [1729521613.268505151] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 457.545 for reason 'discarding message because the queue is full'
+[INFO] [1729521613.394216302] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 457.646 for reason 'discarding message because the queue is full'
+[INFO] [1729521613.490607321] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 457.745 for reason 'discarding message because the queue is full'
+[INFO] [1729521613.586765490] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 457.846 for reason 'discarding message because the queue is full'
+[INFO] [1729521613.619440544] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 457.467 for reason 'discarding message because the queue is full'
+[INFO] [1729521613.682786082] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 457.945 for reason 'discarding message because the queue is full'
+[INFO] [1729521613.810440136] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 458.048 for reason 'discarding message because the queue is full'
+[INFO] [1729521613.905935482] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 458.145 for reason 'discarding message because the queue is full'
+[INFO] [1729521613.938772291] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 457.722 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.002123212] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 458.245 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.098068401] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 458.346 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.131327658] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 457.822 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.194173993] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 458.445 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.290828614] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 457.922 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.291055170] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 458.545 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.387717484] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 458.646 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.482661655] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 458.022 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.514842948] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 458.746 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.610858209] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 458.845 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.706344833] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 458.945 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.739359493] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 458.126 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.802678606] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 459.045 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.898494806] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 458.222 for reason 'discarding message because the queue is full'
+[INFO] [1729521614.898809334] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 459.145 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.026662029] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 459.245 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.122637064] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 458.322 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.122928996] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 459.345 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.218769930] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 459.445 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.283020218] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 458.422 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.314704701] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 459.546 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.410685042] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 459.645 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.507679202] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 458.522 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.507943177] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 459.747 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.602249445] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 459.846 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.698801302] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 458.714 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.699080914] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 459.946 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.794429152] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 460.046 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.891481995] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 458.897 for reason 'discarding message because the queue is full'
+[INFO] [1729521615.892680829] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 460.146 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.019495947] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 460.247 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.050841731] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 459.154 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.113982275] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 460.346 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.210291877] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 460.446 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.242926328] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 459.378 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.306313315] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 460.546 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.371003488] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 459.545 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.402781709] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 460.646 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.497908633] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 460.746 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.530810502] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 459.712 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.594554103] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 460.846 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.690678601] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 460.946 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.722753815] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 459.974 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.818605720] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 461.046 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.914628872] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 461.146 for reason 'discarding message because the queue is full'
+[INFO] [1729521616.946805958] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 460.143 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.013650541] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 461.246 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.106201055] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 461.346 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.138917911] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 460.334 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.202170793] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 461.446 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.298683825] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 460.519 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.330735510] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 461.546 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.426302901] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 461.646 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.522265686] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 461.746 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.554598784] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 460.729 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.618292882] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 461.846 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.714630503] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 460.943 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.714777359] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 461.946 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.810122267] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 462.046 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.906794535] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 461.108 for reason 'discarding message because the queue is full'
+[INFO] [1729521617.906986679] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 462.146 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.002409316] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 462.246 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.067064259] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 461.299 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.098590601] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 462.346 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.194616166] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 462.446 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.226642095] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 461.479 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.322206502] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 462.546 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.418734774] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 461.614 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.418986034] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 462.646 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.514495740] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 462.746 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.579505881] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 461.778 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.610405106] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 462.846 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.706778197] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 462.946 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.770915998] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 461.970 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.802936000] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 463.046 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.931355911] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 463.146 for reason 'discarding message because the queue is full'
+[INFO] [1729521618.962598027] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 462.169 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.026788991] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 463.246 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.122183095] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 463.346 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.154643374] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 462.339 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.249975302] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 463.446 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.346709302] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 462.531 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.346877969] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 463.546 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.442804121] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 463.646 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.538044042] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 463.746 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.571259519] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 462.769 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.634557491] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 463.846 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.730255973] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 463.946 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.762532567] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 462.956 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.826178120] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 464.046 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.922832552] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 464.146 for reason 'discarding message because the queue is full'
+[INFO] [1729521619.954544544] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 463.121 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.082675395] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 464.246 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.147114898] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 463.286 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.147332417] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 464.346 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.242407434] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 464.446 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.339228564] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 463.448 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.339388763] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 464.546 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.434902192] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 464.646 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.498263336] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 463.625 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.530847250] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 464.746 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.626519959] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 464.846 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.658719806] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 463.798 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.722460376] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 464.946 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.817959118] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 465.046 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.882670415] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 463.982 for reason 'discarding message because the queue is full'
+[INFO] [1729521620.946597804] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 465.146 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.042043712] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 465.246 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.107094734] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 464.164 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.140281749] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 465.347 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.243455409] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 465.446 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.330218708] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 464.375 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.331033541] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 465.546 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.426549917] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 465.646 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.522847341] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 464.534 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.523009847] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 465.746 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.618275825] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 465.846 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.682681565] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 464.778 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.746496322] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 465.946 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.842671848] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 466.046 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.874988144] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 464.966 for reason 'discarding message because the queue is full'
+[INFO] [1729521621.938772149] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 466.146 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.035581158] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 465.142 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.036085586] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 466.246 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.130508610] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 466.346 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.195586398] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 465.328 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.226541647] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 466.447 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.322279735] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 466.546 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.418950206] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 465.536 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.419112807] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 466.646 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.546244452] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 466.746 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.611168406] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 465.693 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.642704400] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 466.846 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.739045564] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 466.946 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.834623173] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 465.863 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.834782235] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 467.046 for reason 'discarding message because the queue is full'
+[INFO] [1729521622.930968308] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 467.146 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.027175500] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 466.088 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.027343015] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 467.246 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.122887507] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 467.346 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.218095800] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 467.446 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.282784622] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 466.316 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.346597848] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 467.546 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.442826048] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 467.646 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.474504413] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 466.554 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.538845281] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 467.746 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.634443788] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 467.846 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.666942981] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 466.710 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.730078158] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 467.946 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.826271260] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 466.894 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.826613148] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 468.046 for reason 'discarding message because the queue is full'
+[INFO] [1729521623.922263938] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 468.146 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.018728056] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 467.064 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.050725754] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 468.246 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.146912838] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 468.346 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.178661825] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 467.242 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.242927846] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 468.446 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.338741206] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 468.548 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.370595694] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 467.424 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.434928349] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 468.647 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.563200979] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 467.617 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.563394937] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 468.747 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.658409852] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 468.847 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.755926242] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 468.947 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.850395796] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 467.829 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.850726107] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 469.047 for reason 'discarding message because the queue is full'
+[INFO] [1729521624.947405813] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 469.148 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.042372292] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 469.249 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.106669786] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 468.042 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.138373230] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 469.349 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.234634844] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 469.448 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.330880078] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 469.548 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.362659980] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 468.238 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.458924696] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 469.648 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.554486486] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 468.475 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.554880894] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 469.748 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.650591006] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 469.848 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.746588020] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 468.698 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.746923784] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 469.951 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.842988515] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 470.051 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.938920804] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 468.866 for reason 'discarding message because the queue is full'
+[INFO] [1729521625.939126315] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 470.150 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.066426987] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 470.250 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.130887569] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 469.036 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.162542561] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 470.350 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.259509265] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 470.450 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.354838030] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 469.220 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.361309673] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 470.550 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.450847094] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 470.651 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.546926676] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 469.391 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.547117549] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 470.750 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.642101070] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 470.850 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.738568844] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 469.577 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.770585942] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 470.950 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.866415582] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 471.050 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.930503340] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 469.760 for reason 'discarding message because the queue is full'
+[INFO] [1729521626.962596410] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 471.150 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.058379098] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 471.250 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.090671595] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 470.051 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.154510476] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 471.350 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.251057273] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 471.450 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.282739191] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 470.319 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.346314846] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 471.550 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.442180279] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 471.650 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.474536694] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 470.560 for reason 'discarding message because the queue is full'
+Starting SLAM toolbox...
+[INFO] [1729521627.570749652] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 471.750 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.667000070] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 470.748 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.667506889] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 471.850 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.762877459] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 471.950 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.859113617] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 470.942 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.859477334] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 472.050 for reason 'discarding message because the queue is full'
+[INFO] [1729521627.955111294] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 472.150 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.050736261] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 472.250 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.117958399] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 471.141 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.178553688] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 472.350 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.274501555] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 472.450 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.370538781] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 471.335 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.370894550] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 472.550 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.468371681] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 472.650 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.562672918] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 472.750 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.627436222] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 471.544 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.658601677] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 472.850 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.754783011] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 472.950 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.851069449] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 471.738 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.851277879] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 473.050 for reason 'discarding message because the queue is full'
+[INFO] [1729521628.978576791] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 473.150 for reason 'discarding message because the queue is full'
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2024-10-21-14-40-29-033136-codespaces-e91a0c-2610
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [1729521629.074838980] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 473.250 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.106381617] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 471.921 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.170416589] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 473.350 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.266428382] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 473.450 for reason 'discarding message because the queue is full'
+[INFO] [async_slam_toolbox_node-1]: process started with pid [2614]
+[INFO] [1729521629.363300767] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 472.103 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.363452302] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 473.550 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-1] [INFO] [1729521629.452532065] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1729521629.458184094] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 473.654 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.586877183] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 473.753 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.650680053] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 472.285 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.682755462] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 473.854 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.778761818] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 473.953 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.874537289] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 472.469 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.874694809] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 474.053 for reason 'discarding message because the queue is full'
+[INFO] [1729521629.971040321] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 474.153 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-1] [INFO] [1729521629.976554030] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-1] [INFO] [1729521629.981618496] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[async_slam_toolbox_node-1] Load From File /dev_ws/my_map_serial.posegraph 
+[async_slam_toolbox_node-1] Mapper <- Module
+[async_slam_toolbox_node-1] Mapper <- m_pSequentialScanMatcher
+[async_slam_toolbox_node-1] Mapper <- m_pGraph
+[async_slam_toolbox_node-1] MapperGraph <- Graph; Graph <- m_Edges; Graph <- m_Vertices
+[async_slam_toolbox_node-1] MapperGraph <- m_pMapper; MapperGraph <- m_pLoopScanMatcher; MapperGraph <- m_pTraversal
+[async_slam_toolbox_node-1] Mapper <- m_pMapperSensorManager
+[async_slam_toolbox_node-1] MapperSensorManager <- m_ScanManagers; MapperSensorManager <- m_Scans
+[async_slam_toolbox_node-1] Mapper <- m_Listeners
+[async_slam_toolbox_node-1] **Finished serializing Mapper**
+[async_slam_toolbox_node-1] Load From File
+[async_slam_toolbox_node-1] **Serializing Dataset**
+[async_slam_toolbox_node-1] Dataset <- m_SensorNameLookup
+[async_slam_toolbox_node-1] Dataset <- m_Data
+[async_slam_toolbox_node-1] Dataset <- m_Lasers
+[async_slam_toolbox_node-1] Dataset <- m_pDatasetInfo
+[async_slam_toolbox_node-1] **Finished serializing Dataset**
+[async_slam_toolbox_node-1] Registering sensor: [Custom Described Lidar]
+[async_slam_toolbox_node-1] WARNING: Logging before InitGoogleLogging() is written to STDERR
+[async_slam_toolbox_node-1] W1021 14:40:30.043777  2614 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 2.  Bounding to maximum number available.
+[async_slam_toolbox_node-1] [WARN] [1729521630.047837748] [slam_toolbox]: maximum laser range setting (20.0 m) exceeds the capabilities of the used Lidar (12.0 m)
+[async_slam_toolbox_node-1] Registering sensor: [Custom Described Lidar]
+[INFO] [1729521630.066854796] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 474.253 for reason 'discarding message because the queue is full'
+[INFO] [1729521630.073156050] [rviz2]: Trying to create a map of size 149 x 120 using 1 swatches
+[ERROR] [1729521630.102923792] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+active samplers with a different type refer to the same texture image unit
+[INFO] [1729521630.307922288] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 472.665 for reason 'discarding message because the queue is full'
+[INFO] [1729521630.308099279] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 474.353 for reason 'discarding message because the queue is full'
+[INFO] [1729521630.547265678] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 472.863 for reason 'discarding message because the queue is full'
+[INFO] [1729521630.796866783] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 473.053 for reason 'discarding message because the queue is full'
+[INFO] [1729521635.060599701] [rviz2]: Trying to create a map of size 165 x 126 using 1 swatches
+[INFO] [1729521638.119402218] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 473.282 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521638.388629449] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 473.534 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521638.671733714] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 473.796 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521638.914625655] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 474.045 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.142186503] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 474.296 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.316245199] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 474.453 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.384464653] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 474.527 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.414582160] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 474.553 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.514351504] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 474.653 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.611718976] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 474.753 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.681453706] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 474.832 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.716935074] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 474.853 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.821453734] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 474.953 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.896039100] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 475.053 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.932151908] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 475.054 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521639.999115186] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 475.153 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521640.098358152] [rviz]: Message Filter dropping message: frame 'laser_frame' at time 475.253 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1729521640.192238215] [rviz]: Message Filter dropping message: frame 'camera_link_optical' at time 475.346 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+Starting navigation stack...
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2024-10-21-14-40-49-396124-codespaces-e91a0c-2820
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [controller_server-1]: process started with pid [2847]
+[INFO] [smoother_server-2]: process started with pid [2849]
+[INFO] [planner_server-3]: process started with pid [2851]
+[INFO] [behavior_server-4]: process started with pid [2853]
+[INFO] [bt_navigator-5]: process started with pid [2855]
+[INFO] [waypoint_follower-6]: process started with pid [2865]
+[INFO] [velocity_smoother-7]: process started with pid [2869]
+[INFO] [lifecycle_manager-8]: process started with pid [2872]
+[controller_server-1] [INFO] [1729521651.373750284] [controller_server]: 
+[controller_server-1] 	controller_server lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1729521651.408298749] [controller_server]: Creating controller server
+[smoother_server-2] [INFO] [1729521651.532821200] [smoother_server]: 
+[smoother_server-2] 	smoother_server lifecycle node launched. 
+[smoother_server-2] 	Waiting on external lifecycle transitions to activate
+[smoother_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1729521651.555002570] [smoother_server]: Creating smoother server
+[controller_server-1] [INFO] [1729521651.894269815] [local_costmap.local_costmap]: 
+[controller_server-1] 	local_costmap lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1729521651.897845606] [local_costmap.local_costmap]: Creating Costmap
+[planner_server-3] [INFO] [1729521652.164995484] [planner_server]: 
+[planner_server-3] 	planner_server lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1729521652.183081699] [planner_server]: Creating
+[behavior_server-4] [INFO] [1729521652.364759077] [behavior_server]: 
+[behavior_server-4] 	behavior_server lifecycle node launched. 
+[behavior_server-4] 	Waiting on external lifecycle transitions to activate
+[behavior_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-5] [INFO] [1729521652.486190469] [bt_navigator]: 
+[bt_navigator-5] 	bt_navigator lifecycle node launched. 
+[bt_navigator-5] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-5] [INFO] [1729521652.488733998] [bt_navigator]: Creating
+[lifecycle_manager-8] [INFO] [1729521652.492410269] [lifecycle_manager_navigation]: Creating
+[waypoint_follower-6] [INFO] [1729521652.537728255] [waypoint_follower]: 
+[waypoint_follower-6] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-6] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-6] [INFO] [1729521652.545259734] [waypoint_follower]: Creating
+[velocity_smoother-7] [INFO] [1729521652.581850387] [velocity_smoother]: 
+[velocity_smoother-7] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-7] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-8] [INFO] [1729521652.605668503] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[planner_server-3] [INFO] [1729521652.724609853] [global_costmap.global_costmap]: 
+[planner_server-3] 	global_costmap lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1729521652.730007355] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1729521652.779921741] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-8] [INFO] [1729521652.781108130] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-1] [INFO] [1729521652.782097231] [controller_server]: Configuring controller interface
+[controller_server-1] [INFO] [1729521652.782251325] [controller_server]: getting goal checker plugins..
+[controller_server-1] [INFO] [1729521652.782308921] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-1] [INFO] [1729521652.782340667] [local_costmap.local_costmap]: Configuring
+[controller_server-1] [INFO] [1729521652.798625829] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-1] [INFO] [1729521652.820393314] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-1] [INFO] [1729521652.900485247] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-1] [INFO] [1729521652.901638869] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-1] [INFO] [1729521652.918014454] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-1] [INFO] [1729521653.044915761] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-1] [INFO] [1729521653.063343896] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-1] [INFO] [1729521653.067565665] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-1] [INFO] [1729521653.087671703] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-1] [INFO] [1729521653.106429019] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-1] [INFO] [1729521653.217724942] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-1] [INFO] [1729521653.229251000] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1729521653.233065864] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-1] [INFO] [1729521653.245847112] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1729521653.248719450] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-1] [INFO] [1729521653.254330344] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1729521653.256641868] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-1] [INFO] [1729521653.263727104] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1729521653.267662728] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-1] [INFO] [1729521653.274143183] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1729521653.276274917] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-1] [INFO] [1729521653.280922986] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1729521653.283264131] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-1] [INFO] [1729521653.288444120] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1729521653.289333574] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-8] [INFO] [1729521653.370410728] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-2] [INFO] [1729521653.371243872] [smoother_server]: Configuring smoother server
+[smoother_server-2] [INFO] [1729521653.411408642] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-2] [INFO] [1729521653.420295651] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-8] [INFO] [1729521653.456198358] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-3] [INFO] [1729521653.456542439] [planner_server]: Configuring
+[planner_server-3] [INFO] [1729521653.456582945] [global_costmap.global_costmap]: Configuring
+[planner_server-3] [INFO] [1729521653.474357474] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-3] [INFO] [1729521653.503228139] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-3] [INFO] [1729521653.510471634] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-3] [INFO] [1729521653.510507982] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-3] [INFO] [1729521653.519484846] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-3] [INFO] [1729521653.559322001] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-3] [INFO] [1729521653.559359451] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-3] [INFO] [1729521653.570038029] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-3] [INFO] [1729521653.634049591] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-3] [INFO] [1729521653.634103016] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1729521653.641059298] [planner_server]: Planner Server has GridBased  planners available.
+[planner_server-3] [INFO] [1729521653.649750479] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 165 X 126 at 0.050000 m/pix
+[lifecycle_manager-8] [INFO] [1729521653.726748743] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-4] [INFO] [1729521653.731951470] [behavior_server]: Configuring
+[behavior_server-4] [INFO] [1729521653.792854022] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-4] [INFO] [1729521653.796417996] [behavior_server]: Configuring spin
+[behavior_server-4] [INFO] [1729521653.850169524] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-4] [INFO] [1729521653.853892072] [behavior_server]: Configuring backup
+[behavior_server-4] [INFO] [1729521653.883313123] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-4] [INFO] [1729521653.885173764] [behavior_server]: Configuring drive_on_heading
+[behavior_server-4] [INFO] [1729521653.921781178] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-4] [INFO] [1729521653.929329966] [behavior_server]: Configuring assisted_teleop
+[behavior_server-4] [INFO] [1729521653.973286589] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-4] [INFO] [1729521653.974674009] [behavior_server]: Configuring wait
+[lifecycle_manager-8] [INFO] [1729521654.017218333] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-5] [INFO] [1729521654.017888687] [bt_navigator]: Configuring
+[lifecycle_manager-8] [INFO] [1729521654.464380556] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-6] [INFO] [1729521654.465130070] [waypoint_follower]: Configuring
+[waypoint_follower-6] [INFO] [1729521654.520778202] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-8] [INFO] [1729521654.525482190] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-7] [INFO] [1729521654.525832019] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-8] [INFO] [1729521654.536685580] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-1] [INFO] [1729521654.536875157] [controller_server]: Activating
+[controller_server-1] [INFO] [1729521654.536918357] [local_costmap.local_costmap]: Activating
+[controller_server-1] [INFO] [1729521654.536937596] [local_costmap.local_costmap]: Checking transform
+[controller_server-1] [INFO] [1729521654.537031921] [local_costmap.local_costmap]: start
+[controller_server-1] [INFO] [1729521654.587975281] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1729521654.696483852] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-8] [INFO] [1729521654.696524986] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-2] [INFO] [1729521654.699759315] [smoother_server]: Activating
+[smoother_server-2] [INFO] [1729521654.699801820] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1729521654.811153013] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-8] [INFO] [1729521654.811206009] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-3] [INFO] [1729521654.811922205] [planner_server]: Activating
+[planner_server-3] [INFO] [1729521654.811979633] [global_costmap.global_costmap]: Activating
+[planner_server-3] [INFO] [1729521654.811996873] [global_costmap.global_costmap]: Checking transform
+[planner_server-3] [INFO] [1729521654.812501333] [global_costmap.global_costmap]: start
+[INFO] [1729521654.853678121] [rviz2]: Trying to create a map of size 165 x 126 using 1 swatches
+[planner_server-3] [INFO] [1729521654.863350790] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1729521654.864430300] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1729521654.983683330] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-8] [INFO] [1729521654.983735924] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-4] [INFO] [1729521654.984709207] [behavior_server]: Activating
+[behavior_server-4] [INFO] [1729521654.984745680] [behavior_server]: Activating spin
+[behavior_server-4] [INFO] [1729521654.984760420] [behavior_server]: Activating backup
+[behavior_server-4] [INFO] [1729521654.984771170] [behavior_server]: Activating drive_on_heading
+[behavior_server-4] [INFO] [1729521654.984780541] [behavior_server]: Activating assisted_teleop
+[behavior_server-4] [INFO] [1729521654.984790351] [behavior_server]: Activating wait
+[behavior_server-4] [INFO] [1729521654.984803380] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1729521655.090117094] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-8] [INFO] [1729521655.090174698] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-5] [INFO] [1729521655.090928951] [bt_navigator]: Activating
+[bt_navigator-5] [INFO] [1729521655.474259443] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1729521655.595204376] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-8] [INFO] [1729521655.595259665] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-6] [INFO] [1729521655.595836529] [waypoint_follower]: Activating
+[waypoint_follower-6] [INFO] [1729521655.595880454] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1729521655.708818599] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-8] [INFO] [1729521655.708867536] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-7] [INFO] [1729521655.710044475] [velocity_smoother]: Activating
+[velocity_smoother-7] [INFO] [1729521655.710129530] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1729521655.823172512] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-8] [INFO] [1729521655.823220295] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-8] [INFO] [1729521655.823234362] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+Sending waypoints...
+[waypoint_follower-6] [INFO] [1729521673.626854758] [waypoint_follower]: Received follow waypoint request with 4 waypoints.
+[bt_navigator-5] [INFO] [1729521673.658499132] [bt_navigator]: Begin navigating from current location (-0.01, -0.10) to (1.00, 1.60)
+[planner_server-3] [ERROR] [1729521673.662931133] [planner_server]: worldToMap failed: mx,my: 103,136, size_x,size_y: 165,126
+[planner_server-3] [WARN] [1729521673.663829714] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521673.664550021] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521673.665107381] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521673.665681079] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521673.678870320] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[INFO] [1729521673.762526407] [waypoint_action_client]: Goal accepted :)
+[planner_server-3] [ERROR] [1729521673.820674240] [planner_server]: worldToMap failed: mx,my: 103,136, size_x,size_y: 165,126
+[planner_server-3] [WARN] [1729521673.820731844] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521673.820743612] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521673.820754245] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521673.820767442] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[controller_server-1] [INFO] [1729521673.838890401] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1729521673.839545644] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1729521674.528859155] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-3] [ERROR] [1729521674.826362289] [planner_server]: worldToMap failed: mx,my: 103,136, size_x,size_y: 165,126
+[planner_server-3] [WARN] [1729521674.826420125] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521674.826480931] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521674.826493936] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521674.826506859] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521674.839275293] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521675.819974811] [planner_server]: worldToMap failed: mx,my: 103,136, size_x,size_y: 165,126
+[planner_server-3] [WARN] [1729521675.820038184] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521675.820048699] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521675.820058547] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521675.820071123] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1729521675.856704645] [behavior_server]: Running spin
+[behavior_server-4] [INFO] [1729521675.857936667] [behavior_server]: Turning 1.57 for spin behavior.
+[behavior_server-4] [INFO] [1729521677.559408133] [behavior_server]: spin completed successfully
+[planner_server-3] [ERROR] [1729521677.613195107] [planner_server]: worldToMap failed: mx,my: 103,136, size_x,size_y: 165,126
+[planner_server-3] [WARN] [1729521677.614002015] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521677.614464613] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521677.614861487] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521677.615217146] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521677.642063933] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521677.824473661] [planner_server]: worldToMap failed: mx,my: 103,136, size_x,size_y: 165,126
+[planner_server-3] [WARN] [1729521677.824533317] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521677.824543312] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521677.824554460] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521677.824568126] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1729521677.846257293] [behavior_server]: Running wait
+[bt_navigator-5] [WARN] [1729521679.140118765] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[INFO] [1729521680.081274993] [rviz2]: Trying to create a map of size 166 x 126 using 1 swatches
+[planner_server-3] [INFO] [1729521680.817726843] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 166 X 126 at 0.050000 m/pix
+[INFO] [1729521680.854688174] [rviz2]: Trying to create a map of size 166 x 126 using 1 swatches
+[behavior_server-4] [INFO] [1729521682.848597247] [behavior_server]: wait completed successfully
+[planner_server-3] [ERROR] [1729521682.884382370] [planner_server]: worldToMap failed: mx,my: 104,136, size_x,size_y: 166,126
+[planner_server-3] [WARN] [1729521682.885448015] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521682.886671173] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521682.887223663] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521682.888358296] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521682.909321108] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521683.824439717] [planner_server]: worldToMap failed: mx,my: 104,136, size_x,size_y: 166,126
+[planner_server-3] [WARN] [1729521683.824497794] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521683.824507322] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521683.824517457] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521683.824530832] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1729521683.848101988] [behavior_server]: Running backup
+[behavior_server-4] [INFO] [1729521690.048356927] [behavior_server]: backup completed successfully
+[planner_server-3] [ERROR] [1729521690.083811209] [planner_server]: worldToMap failed: mx,my: 104,136, size_x,size_y: 166,126
+[planner_server-3] [WARN] [1729521690.083861907] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521690.083870788] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521690.083885000] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521690.083927926] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521690.099142577] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521690.827498786] [planner_server]: worldToMap failed: mx,my: 104,136, size_x,size_y: 166,126
+[planner_server-3] [WARN] [1729521690.827558268] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521690.827568288] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521690.827578183] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521690.827590655] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[controller_server-1] [INFO] [1729521690.838883614] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1729521690.840054858] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521691.824811737] [planner_server]: worldToMap failed: mx,my: 104,136, size_x,size_y: 166,126
+[planner_server-3] [WARN] [1729521691.824864752] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521691.824872766] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521691.824881355] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521691.824892396] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521691.840418437] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521692.824766490] [planner_server]: worldToMap failed: mx,my: 104,136, size_x,size_y: 166,126
+[planner_server-3] [WARN] [1729521692.824826862] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521692.824836462] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521692.824846264] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521692.824859300] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1729521692.842538778] [behavior_server]: Running spin
+[behavior_server-4] [INFO] [1729521692.843260637] [behavior_server]: Turning 1.57 for spin behavior.
+[behavior_server-4] [INFO] [1729521694.544020268] [behavior_server]: spin completed successfully
+[planner_server-3] [ERROR] [1729521694.586025196] [planner_server]: worldToMap failed: mx,my: 104,136, size_x,size_y: 166,126
+[planner_server-3] [WARN] [1729521694.586789374] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521694.587216639] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521694.587604758] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521694.588019698] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521694.598843170] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521694.826247378] [planner_server]: worldToMap failed: mx,my: 104,136, size_x,size_y: 166,126
+[planner_server-3] [WARN] [1729521694.826307320] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521694.826316755] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521694.826326732] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (1.00, 1.60)
+[planner_server-3] [WARN] [1729521694.826338917] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1729521694.848816512] [bt_navigator]: Goal failed
+[bt_navigator-5] [WARN] [1729521694.848870087] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[INFO] [1729521695.081018756] [rviz2]: Trying to create a map of size 167 x 126 using 1 swatches
+[waypoint_follower-6] [INFO] [1729521695.531712443] [waypoint_follower]: Failed to process waypoint 0, moving to next.
+[bt_navigator-5] [INFO] [1729521695.600433454] [bt_navigator]: Begin navigating from current location (0.07, -0.41) to (3.30, 2.60)
+[planner_server-3] [ERROR] [1729521695.607392512] [planner_server]: worldToMap failed: mx,my: 150,156, size_x,size_y: 166,126
+[planner_server-3] [WARN] [1729521695.608171992] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521695.608999972] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521695.609508907] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521695.609912697] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521695.620860626] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [INFO] [1729521695.817720391] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 167 X 126 at 0.050000 m/pix
+[planner_server-3] [ERROR] [1729521695.820293597] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521695.820339697] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521695.820350347] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521695.820361945] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521695.820383050] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1729521695.841809455] [behavior_server]: Running wait
+[waypoint_follower-6] [INFO] [1729521696.281731796] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.331702870] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.381737794] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.431710582] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.481672636] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.531719704] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.581728255] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.631809679] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.681730162] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.731729481] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.781733329] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.831709222] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.883259886] [waypoint_follower]: Processing waypoint 1...
+[INFO] [1729521696.895778172] [rviz2]: Trying to create a map of size 167 x 126 using 1 swatches
+[waypoint_follower-6] [INFO] [1729521696.931722749] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521696.981723043] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521697.031712551] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521697.081736352] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521697.131721643] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521697.181740405] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1729521697.231710599] [waypoint_follower]: Processing waypoint 1...
+[bt_navigator-5] [WARN] [1729521697.326496852] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[async_slam_toolbox_node-1] [INFO] [1729521697.752714158] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 541.552 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[behavior_server-4] [INFO] [1729521700.941968813] [behavior_server]: wait completed successfully
+[planner_server-3] [ERROR] [1729521700.979326618] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521700.980924928] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521700.981482565] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521700.982013623] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521700.996036345] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521701.010864743] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521701.824756365] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521701.824807159] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521701.824815771] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521701.824824726] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521701.824838020] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1729521701.861790526] [behavior_server]: Running backup
+[bt_navigator-5] [WARN] [1729521702.612294216] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[behavior_server-4] [INFO] [1729521708.063024569] [behavior_server]: backup completed successfully
+[planner_server-3] [ERROR] [1729521708.108243120] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521708.111748684] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521708.114513696] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521708.114995687] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521708.115406190] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521708.131465307] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521708.828373491] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521708.828441550] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521708.828451298] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521708.828461335] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521708.828476367] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[controller_server-1] [INFO] [1729521708.840849475] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1729521708.841872005] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1729521709.640717684] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-3] [ERROR] [1729521709.821963561] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521709.822022534] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521709.822032357] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521709.822041243] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521709.822053826] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521709.840834146] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521710.824051922] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521710.824107498] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521710.824115127] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521710.824124816] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521710.824136892] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1729521710.848204908] [behavior_server]: Running spin
+[behavior_server-4] [INFO] [1729521710.848305342] [behavior_server]: Turning 1.57 for spin behavior.
+[behavior_server-4] [INFO] [1729521712.548484021] [behavior_server]: spin completed successfully
+[planner_server-3] [ERROR] [1729521712.590905092] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521712.590964356] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521712.590973899] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521712.590984292] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521712.590996074] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521712.610947267] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1729521712.827580986] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521712.827636650] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521712.827661436] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521712.827671522] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521712.827684434] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1729521712.845731335] [behavior_server]: Running wait
+[behavior_server-4] [INFO] [1729521717.946243727] [behavior_server]: wait completed successfully
+[planner_server-3] [ERROR] [1729521717.978477456] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521717.978537396] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521717.978546095] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521717.978554569] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521717.978564280] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521717.991325654] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1729521718.704331833] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-3] [ERROR] [1729521718.821259772] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521718.821318439] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521718.821329620] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521718.821339172] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521718.821353084] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1729521718.856853972] [behavior_server]: Running backup
+[bt_navigator-5] [WARN] [1729521719.501385148] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1729521719.544138628] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1729521720.990692645] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1729521724.608042549] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[behavior_server-4] [INFO] [1729521725.057486198] [behavior_server]: backup completed successfully
+[planner_server-3] [ERROR] [1729521725.107639953] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521725.120006721] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521725.120039964] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521725.123123500] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521725.123140319] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1729521725.128342602] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1729521725.737527876] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-3] [ERROR] [1729521725.827117777] [planner_server]: worldToMap failed: mx,my: 151,156, size_x,size_y: 167,126
+[planner_server-3] [WARN] [1729521725.827205690] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+[planner_server-3] [WARN] [1729521725.827218370] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-3] [WARN] [1729521725.827228449] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.30, 2.60)
+[planner_server-3] [WARN] [1729521725.827242918] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1729521725.847607061] [bt_navigator]: Goal failed
+[bt_navigator-5] [WARN] [1729521725.847671638] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[waypoint_follower-6] [INFO] [1729521726.531797594] [waypoint_follower]: Failed to process waypoint 1, moving to next.
+[bt_navigator-5] [INFO] [1729521726.587431552] [bt_navigator]: Begin navigating from current location (0.23, 0.00) to (3.40, -0.30)
+[controller_server-1] [INFO] [1729521726.624178114] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [WARN] [1729521726.626112100] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[waypoint_follower-6] [INFO] [1729521726.631711738] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521726.682425452] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521726.731718070] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521726.782436284] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521726.831741026] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521726.881730163] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521726.931701501] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521726.981723874] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521727.031710169] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521727.081731849] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521727.131766734] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521727.181727556] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521727.231722941] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521727.281726434] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521727.331779605] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521727.381727068] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521727.431725807] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1729521727.481730022] [waypoint_follower]: Processing waypoint 2...
+[controller_server-1] [INFO] [1729521727.677549096] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521728.727593395] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521729.777547736] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521730.827553724] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521731.877550242] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521732.877818470] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521733.927602697] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521734.977551335] [controller_server]: Passing new path to controller.
+[planner_server-3] [WARN] [1729521735.988545031] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 10.3093 Hz
+[controller_server-1] [INFO] [1729521736.027554010] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521737.077557871] [controller_server]: Passing new path to controller.
+[planner_server-3] [WARN] [1729521738.087118344] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 9.4340 Hz
+[controller_server-1] [INFO] [1729521738.127551582] [controller_server]: Passing new path to controller.
+[controller_server-1] [WARN] [1729521739.190858730] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[controller_server-1] [INFO] [1729521739.200505303] [controller_server]: Passing new path to controller.
+[controller_server-1] [WARN] [1729521739.260639460] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[controller_server-1] [WARN] [1729521739.330743138] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[controller_server-1] [INFO] [1729521739.487138119] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1729521739.517586449] [bt_navigator]: Goal succeeded
+[INFO] [1729521740.087680650] [rviz2]: Trying to create a map of size 167 x 127 using 1 swatches
+[waypoint_follower-6] [INFO] [1729521740.181770820] [waypoint_follower]: Succeeded processing waypoint 2, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1729521740.181818987] [waypoint_follower]: Arrived at 2'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1729521740.301498620] [waypoint_follower]: Task execution at waypoint 2 succeeded
+[waypoint_follower-6] [INFO] [1729521740.301584535] [waypoint_follower]: Handled task execution on waypoint 2, moving to next.
+[bt_navigator-5] [INFO] [1729521740.306403064] [bt_navigator]: Begin navigating from current location (3.13, -0.37) to (-0.30, 0.10)
+[controller_server-1] [INFO] [1729521740.332354901] [controller_server]: Received a goal, begin computing control effort.
+[planner_server-3] [INFO] [1729521740.817729228] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 167 X 127 at 0.050000 m/pix
+[INFO] [1729521740.877143249] [rviz2]: Trying to create a map of size 167 x 127 using 1 swatches
+[controller_server-1] [INFO] [1729521741.382654548] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521742.432882556] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521743.482830810] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521744.482649289] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521745.532631262] [controller_server]: Passing new path to controller.
+[planner_server-3] [INFO] [1729521745.817722368] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 167 X 127 at 0.050000 m/pix
+[bt_navigator-5] [WARN] [1729521745.948638384] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-3] [WARN] [1729521746.551988083] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 9.6154 Hz
+[controller_server-1] [INFO] [1729521746.582650734] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521747.632623060] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521748.682654473] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521749.732654841] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521750.782715330] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521751.832653586] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521752.883007429] [controller_server]: Passing new path to controller.
+[controller_server-1] [WARN] [1729521752.945080167] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[planner_server-3] [WARN] [1729521753.904778200] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 9.5238 Hz
+[controller_server-1] [INFO] [1729521753.932724815] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521754.982730423] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521755.982655878] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1729521756.951715622] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.001690304] [waypoint_follower]: Processing waypoint 3...
+[controller_server-1] [INFO] [1729521757.032659635] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1729521757.051711583] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.101762915] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.151724093] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.201825059] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.251719188] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.301829838] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.351716146] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.401852616] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.451809297] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.501837429] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.551734919] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.601934525] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.651722299] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.701974969] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.751724129] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.801690469] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.851724469] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1729521757.901841450] [waypoint_follower]: Processing waypoint 3...
+[controller_server-1] [INFO] [1729521758.082653605] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1729521758.388118684] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [WARN] [1729521758.443064892] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[controller_server-1] [WARN] [1729521758.506346686] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[controller_server-1] [WARN] [1729521758.539821041] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[controller_server-1] [WARN] [1729521758.586797528] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[controller_server-1] [INFO] [1729521759.082666514] [controller_server]: Passing new path to controller.
+[INFO] [1729521760.104499803] [rviz2]: Trying to create a map of size 168 x 127 using 1 swatches
+[controller_server-1] [INFO] [1729521760.132679889] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1729521760.300656022] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1729521760.336561397] [bt_navigator]: Goal succeeded
+[planner_server-3] [INFO] [1729521760.817729058] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 168 X 127 at 0.050000 m/pix
+[INFO] [1729521760.875580984] [rviz2]: Trying to create a map of size 168 x 127 using 1 swatches
+[waypoint_follower-6] [INFO] [1729521761.001687308] [waypoint_follower]: Succeeded processing waypoint 3, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1729521761.001739311] [waypoint_follower]: Arrived at 3'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1729521761.155684317] [waypoint_follower]: Task execution at waypoint 3 succeeded
+[waypoint_follower-6] [INFO] [1729521761.155744684] [waypoint_follower]: Handled task execution on waypoint 3, moving to next.
+[waypoint_follower-6] [INFO] [1729521761.155753387] [waypoint_follower]: Completed all 4 waypoints requested.
+[INFO] [1729521761.157816209] [waypoint_action_client]: Result: nav2_msgs.action.FollowWaypoints_Result(missed_waypoints=[0, 1])
+[async_slam_toolbox_node-1] [INFO] [1729521827.006806381] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 669.499 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-1] [INFO] [1729521929.911168842] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 771.510 for reason 'the timestamp on the message is earlier than all the data in the transform cache'

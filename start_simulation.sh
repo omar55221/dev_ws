@@ -34,3 +34,16 @@ WAYPOINT_PID=$!
 
 # Wait for all background processes to complete
 wait $SIM_PID $RVIZ_PID $SLAM_PID $NAV_PID $WAYPOINT_PID
+
+# Wait for the specific output to indicate waypoints completion
+ros2 topic echo /waypoint_follower/log | grep -m 1 "Completed all 4 waypoints requested"
+
+# Kill all background processes once the message is detected
+kill $SIM_PID $RVIZ_PID $SLAM_PID $NAV_PID $WAYPOINT_PID
+echo "All processes terminated after completing waypoints."
+
+# Wait for all background processes to terminate gracefully
+wait
+
+echo "All ROS processes have been terminated successfully. Exiting script."
+
